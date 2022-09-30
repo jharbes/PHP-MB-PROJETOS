@@ -1,5 +1,13 @@
 <?php
 
+# comentário
+
+/* 
+
+comentario
+
+*/
+
 // não é case sensitive para instrucoes
 ECHO "teste sensitive<br>";
 ecHO "teste2";
