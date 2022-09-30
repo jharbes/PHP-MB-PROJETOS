@@ -1,4 +1,4 @@
-<img src="UML_logo.svg.png" align="right" width="150">
+<img src="php-logo.png" align="right" width="150">
 
 # PHP-MB-PROJETOS
 
