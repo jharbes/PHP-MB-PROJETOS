@@ -10,7 +10,10 @@
 <h1>Curso de PHP</h1>
 <?php
 
-// Alguns valores são lidos como false pelo PHP para booleanos, como por exemplo: 0, 0.0, "0", [], NULL null
+// Alguns valores são lidos como false pelo PHP para booleanos, como por exemplo: 0, 0.0, "0", [], NULL null, perceba abaixo:
+
+if (!0 && !0.0 && !"0" && ![] && !NULL && !null)
+    echo "Todos são falsos!!<br><hr>";
 
 echo is_bool(0)?"É booleano<br>":"Não é booleano<br>";
 echo is_bool(true)?"É booleano<br>":"Não é booleano<br>";
