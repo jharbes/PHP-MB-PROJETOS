@@ -10,7 +10,8 @@
 <h1>Curso de PHP</h1>
 <?php
   
-?>
 
+  
+?>
 </body>
 </html>
