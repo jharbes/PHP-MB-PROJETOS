@@ -11,6 +11,10 @@
 <?php
   
 $x='teste';
+
+echo $x;
+echo "<hr>";
+
 $$x=5;
 echo $teste;
 
