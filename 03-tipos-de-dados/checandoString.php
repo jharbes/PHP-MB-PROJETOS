@@ -34,6 +34,8 @@ echo is_string(0.0)?"String<br>":"Nao String<br>";
 
 echo is_string("Luau doido")?"String<br>":"Nao String<br>";
 
+echo is_string('Aspas simples')?'String<br>':'Não String<br>';
+
 ?>
 
 </body>
