@@ -9,9 +9,27 @@
 <body>
 <h1>Curso de PHP</h1>
 <?php
-  
-echo gettype("5"*12);
-  
+
+// alteracao de tipagem automatica da variavel chama-se autocast 
+$operacao="5"*12;
+
+echo $operacao;
+echo "<br>";
+
+echo gettype($operacao);
+
+echo "<br>";
+
+echo gettype([]);
+
+echo "<br>";
+
+echo gettype(12.2);
+
+echo "<br>";
+
+echo gettype("Jorge");
+
 ?>
 </body>
 </html>
