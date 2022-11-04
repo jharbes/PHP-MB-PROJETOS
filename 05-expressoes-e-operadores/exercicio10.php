@@ -18,6 +18,18 @@ $z = 9;
 $operacao = ($x - $z) / $a * $z;
 
 echo $operacao;
+echo "<br>";
+
+// teste abaixo, operador de concatenacao eh o ponto e nao o +
+
+$nome="Jorge";
+$sobrenome=" Harbes";
+
+echo $nome.$sobrenome;
+
+echo "<br>";
+
+echo "jurubeba ".$a." eh o leao do norte ".$nome;
   
 ?>
 </body>
