@@ -30,12 +30,12 @@ echo "<hr>";
 
 $i=0;
 
-while ($i<=10){
+while ($i<count($vetor)){
     if ($vetor[$i]==30 || $vetor[$i]==40){
         $i++;
         continue;
     }
-    echo $vetor[$i],"<br>";
+    echo $vetor[$i]."<br>";
     $i++;
 }
   
