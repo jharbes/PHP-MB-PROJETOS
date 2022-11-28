@@ -17,7 +17,7 @@
 <?php
   
 function nomeIdade($nome,$idade){
-    echo "Olá, eu sou o $nome e tenho $idade anos.";
+    echo "Olá, eu sou o(a) $nome e tenho $idade anos.<br>";
 }
 
 nomeIdade("Jorge",39);
