@@ -13,15 +13,13 @@
     </style>
 </head>
 <body>
-<h1>Curso de PHP - Include</h1>
+<h1>Curso de PHP - Require</h1>
 <h2><mark>A principal diferença entre include e require é que o include gera erro mas nao impede que o restante do script e/ou pagina seja disponibilizado, o require por sua vez gera erro fatal no arquivo caso seja inexistente impedindo que o arquivo continue sua renderização</mark></h2>
 <?php
   
-include 'teste.php';
+require "teste.php";
   
 ?>
-<p>Após o include</p>
-<hr>
-<p>Imprimindo a variavel c do arquivo teste.php: <?php echo $c; ?></p>
+<p>Arquivo do include</p>
 </body>
 </html>
