@@ -17,10 +17,26 @@
     </style>
 </head>
 <body>
-<h1>Curso de PHP</h1><hr>
+<h1>Curso de PHP - Parametros Default</h1>
 <?php
   
+function teste($a = "teste") {
 
+    echo "<h3>O valor de A é: $a <br></h3>";
+
+}
+
+teste();
+teste("asd");
+
+function testando($b, $a = "x") {
+
+    echo "<h3>O valor de a é: $a e de b é: $b <br></h3>";
+
+}
+
+testando("1");
+testando("1", "2");
   
 ?>
 </body>
