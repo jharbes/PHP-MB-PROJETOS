@@ -19,8 +19,16 @@
 <body>
 <h1>Curso de PHP</h1>
 <?php
-  
 
+$x=90;
+  
+function quadradoDeUmNumero($numero){
+    return $numero*$numero;
+}
+
+echo "<h3>".quadradoDeUmNumero(5)."</h3>";
+echo "<h3>".quadradoDeUmNumero(20)."</h3>";
+echo "<h3>".quadradoDeUmNumero($x)."</h3>";
   
 ?>
 </body>
